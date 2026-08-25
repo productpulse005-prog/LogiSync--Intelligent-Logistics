@@ -1,0 +1,12 @@
+{
+  "name": "Remix LogiSync- Logistics Intelligence",
+  "description": "An intelligence layer capturing urban ground-truth constraints to predict delivery risks, costs, and ETAs for improved operational confidence.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
