@@ -1,27 +1,27 @@
 # LogiSync — AI-Assisted Last-Mile Delivery Exception Management
 
-LogiSync is an independent product case study exploring how AI-assisted exception management can help last-mile operations teams identify delivery risks earlier, prioritize interventions, and protect delivery commitments.
+LogiSync is an independent product case study focused on helping last-mile delivery teams spot potential delays earlier and decide which delivery issues need attention first.
 
 ## Product Approach
 
-- **P0:** Explainable, rules-based risk detection and a live exception dashboard.
-- **Human-in-the-loop:** Coordinator review and approval before consequential actions.
-- **AI evaluation:** Compare historical-data ML against the rules-based baseline before introducing predictive intelligence.
-- **Measurement:** Evaluate delivery commitment misses, detection lead time, alert quality, and operational workload.
-- **Roadmap:** Progress from validation and shadow-mode evaluation to a controlled pilot and potential production rollout.
+- **Start with rules:** Build a live dashboard that flags delivery risks using explainable, rules-based logic.
+- **Keep humans in control:** Let operations coordinators review and approve actions before anything consequential happens.
+- **Test AI before adding it:** Compare ML-based risk predictions against the rules-based baseline using historical data.
+- **Measure what matters:** Track missed delivery commitments, how early risks are detected, alert accuracy, and coordinator workload.
+- **Build in stages:** Validate the approach first, test it in shadow mode, and move to a controlled pilot only if the results justify it.
 
-## Artifacts
+## What I've Designed
 
-- **Product Requirements Document (PRD):** Product scope, functional requirements, acceptance criteria, metrics, risks, and rollout strategy.
-- **AWS Architecture:** Proposed cloud architecture, event processing, data storage, security, and observability.
-- **Product Case Study:** Problem discovery, prioritization, product decisions, AI evaluation, and V2 roadmap.
+- **PRD:** Product scope, requirements, acceptance criteria, success metrics, risks, and rollout plan.
+- **AWS Architecture:** Proposed design for cloud infrastructure, event processing, data storage, security, and monitoring.
+- **Product Case Study:** Problem framing, prioritization, key product decisions, AI evaluation, and the next-phase roadmap.
 
 ## Current Status
 
-LogiSync is an interactive prototype with some working flows. Logistics data and integrations are mocked or simulated. The AWS architecture and production rollout are proposed designs, not evidence of a live deployment.
+LogiSync is an interactive prototype with some working flows. The logistics data and integrations are simulated. The AWS architecture and production rollout are proposed designs; the product has not been deployed in a live logistics environment.
 
-The portfolio's 80% review-volume reduction is a modeled illustration, not a validated production result.
+The 80% reduction in review volume shown in the portfolio is a modeled example, not a result validated with real users or production data.
 
 ## Product Principle
 
-**Validate the operational problem first, establish the value of rules-based detection, and introduce more complex AI only when evidence justifies it.**
+**Start by solving the operational problem with simple, explainable rules. Add AI only when testing shows that it improves decisions and delivers measurable value.**
